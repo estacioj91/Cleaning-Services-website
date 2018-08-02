@@ -1,0 +1,6 @@
+.wrap-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 10%;
+}
