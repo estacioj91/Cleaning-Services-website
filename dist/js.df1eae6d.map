@@ -1,1 +1,0 @@
-{"version":3,"sources":["js\\index.js"],"names":["console","log"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,QAAQC,GAAR,CAAY,OAAZ","file":"js.df1eae6d.map","sourceRoot":"..","sourcesContent":["console.log(\"hello\");\r\n"]}

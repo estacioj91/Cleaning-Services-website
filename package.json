@@ -1,12 +1,23 @@
 {
-  "name": "bussiness-cleaning-website",
+  "name": "House-Cleaning",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "input.js",
   "scripts": {
-    "start": "parcel index.html"
+    "dev-server": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "dev": "live-server public"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "live-server": "^1.2.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
 }
