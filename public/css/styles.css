@@ -22,3 +22,8 @@ main {
     width: 32%;
     margin: 0 2%;
 }
+
+#height-fix {
+    height: 450px !important;
+
+}

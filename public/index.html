@@ -16,21 +16,24 @@
        nav bar begings 
     -->
     <header>
-        <nav>
-            <div class="nav-wrapper container">
+        <nav class="blue-grey">
+            <div class="nav-wrapper container ">
                 <a href="#" class="sidenav-trigger show-on-large" data-target="mobile-demo"><i class="material-icons">menu</i></a>
                 <a href="#" class="brand-logo"><i class="material-icons">delete_sweep</i>logo</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">test1</a></li>
-                    <li><a href="#">test2</a></li>
-                    <li><a href="#">test3</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
-            <li><a href="#">test4</a></li>
-            <li><a href="#">test5</a></li>
-            <li><a href="#">test6</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Request a Quote</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
     </header>
     <!--
@@ -41,7 +44,7 @@
        Image Carousel beings
     -->
         <div class="container">
-            <div class="carousel carousel-slider">
+            <div class="carousel carousel-slider carousel-img">
                 <a href="#" class="carousel-item"><img src="./assets/cleaning1.jpeg" alt="image"></a>
                 <a href="#" class="carousel-item"><img src="./assets/cleaning2.jpeg" alt="image"></a>
                 <a href="#" class="carousel-item"><img src="./assets/cleaning3.jpeg" alt="image"></a>
@@ -52,13 +55,26 @@
         <!--
        Image Carousel ends
     -->
+
+        <div class="container">
+            <div class="row">
+                <p class="text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                    the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
         <!--
        Work cards being
     -->
-        <div class="container">
+        <div class="container hide-on-med-and-down">
             <div class="row">
                 <div class="col s12 m7 l4" id="left-right-alignment">
-                    <div class="card large">
+                    <div class="card large z-depth-4">
                         <div class="card-image">
                             <img src="./assets/cleaning2.jpeg">
                             <span class="card-title">Card Title</span>
@@ -73,7 +89,7 @@
                     </div>
                 </div>
                 <div class="col s12 m7 l4" id="left-right-alignment-middle">
-                    <div class="card large">
+                    <div class="card large z-depth-4">
                         <div class="card-image">
                             <img src="./assets/cleaning4.jpeg">
                             <span class="card-title">Card Title</span>
@@ -88,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col s12 m7 l4" id="left-right-alignment">
-                    <div class="card large">
+                    <div class="card large z-depth-4">
                         <div class="card-image">
                             <img src="./assets/cleaning5.jpeg">
                             <span class="card-title">Card Title</span>
@@ -105,13 +121,73 @@
             </div>
         </div>
         <!--
+       Work cards carousel beings
+    -->
+        <div class="container hide-on-med-and-up">
+            <div class="row">
+                <div class="carousel carousel-slider center carousel-cards" id="height-fix">
+                    <div class="carousel-item center">
+                        <div class="card medium z-depth-2">
+                            <div class="card-image">
+                                <img src="./assets/cleaning5.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item center">
+                        <div class="card medium z-depth-2">
+                            <div class="card-image">
+                                <img src="./assets/cleaning3.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item center">
+                        <div class="card medium z-depth-2">
+                            <div class="card-image">
+                                <img src="./assets/cleaning4.jpeg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+       Work cards carousel ends
+    -->
+
+
+        <!--
        Work cards end
     -->
     </main>
     <!--
        footer beings 
     -->
-    <footer class="page-footer">
+    <footer class="page-footer blue-grey">
         <div class="container">
             <div class="row">
                 <div class="col">
