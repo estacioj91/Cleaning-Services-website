@@ -7,3 +7,18 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+.carousel .carousel-item>img {
+    height: 100%;
+}
+
+#left-right-alignment {
+    padding: 0;
+    width: 32%;
+}
+
+#left-right-alignment-middle {
+    padding: 0;
+    width: 32%;
+    margin: 0 2%;
+}
