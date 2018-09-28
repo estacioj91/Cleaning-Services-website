@@ -27,3 +27,68 @@ main {
     height: 450px !important;
 
 }
+
+#about-header-image {
+    width: 100%;
+}
+
+/*
+ start about med-large content block css changes
+*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-large-item {
+    flex-basis: 59%;
+}
+
+.flex-small-item {
+    flex-basis: 39%;
+}
+
+.flex-large-item-col {
+    flex-basis: 46.25%;
+}
+
+.flex-large-item-col-single {
+    flex-basis: 100%;
+}
+
+.flex-medium-item {
+    flex-basis: 50%;
+}
+
+.flex-list-small {
+    flex-basis: 25%;
+}
+
+/*
+ end about med-large content block css changes
+*/
+
+/*
+ About page content block styling
+*/
+
+.centered-padding {
+    padding: 5%;
+}
+
+.paragraph-style-white {
+    color: white;
+}
+
+/*
+ About page content block styling
+*/
