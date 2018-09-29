@@ -1,4 +1,4 @@
-import "../public/scripts/materialize"
+import "../docs/scripts/materialize"
 //inits nav bar
 document.addEventListener('DOMContentLoaded', function () {
     var elems = document.querySelectorAll('.sidenav');
