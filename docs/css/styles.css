@@ -8,6 +8,9 @@ main {
     flex: 1 0 auto;
 }
 
+/*
+ start home page
+*/
 .carousel .carousel-item>img {
     height: 100%;
 }
@@ -33,9 +36,12 @@ main {
 }
 
 /*
- start about med-large content block css changes
+ end home page
 */
 
+/*
+ start about med-large content block 
+*/
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -43,22 +49,16 @@ main {
     flex-wrap: wrap;
 }
 
-.flex-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .flex-large-item {
-    flex-basis: 59%;
+    flex-basis: 100%;
 }
 
 .flex-small-item {
-    flex-basis: 39%;
+    flex-basis: 100%;
 }
 
 .flex-large-item-col {
-    flex-basis: 46.25%;
+    flex-basis: 100%;
 }
 
 .flex-large-item-col-single {
@@ -66,12 +66,59 @@ main {
 }
 
 .flex-medium-item {
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .flex-list-small {
     flex-basis: 25%;
 }
+
+/*
+         About page media queries
+*/
+@media screen and (min-width: 1224px) {
+    .flex-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .flex-large-item {
+        flex-basis: 59%;
+    }
+
+    .flex-small-item {
+        flex-basis: 39%;
+    }
+
+    .flex-large-item-col {
+        flex-basis: 46.25%;
+    }
+
+    .flex-large-item-col-single {
+        flex-basis: 100%;
+    }
+
+    .flex-medium-item {
+        flex-basis: 50%;
+    }
+
+    .flex-list-small {
+        flex-basis: 25%;
+    }
+
+    .about-block-content-align {
+        margin: 10% 0;
+    }
+
+    .about-block-content-align-large {
+        margin: 20% 14%;
+    }
+}
+
+/*
+         About page media queries
+*/
 
 /*
  end about med-large content block css changes
@@ -80,23 +127,41 @@ main {
 /*
  About page content block styling
 */
+.text-style {
+    font-size: 15px;
+    line-height: 1.368em;
+    font-family: "helvetica", "arial", "sans";
+}
 
 .centered-padding {
     padding: 5%;
 }
 
 .paragraph-style-white {
-    color: white;
+    color: black;
 }
 
-.about-block-content-align {
-    margin: 10% 0;
-}
-
-.about-block-content-align-large {
-    margin: 20% 14%;
-}
 
 /*
  About page content block styling
 */
+/*
+ nav/footer styling override start
+*/
+
+.nav-text-dark-a {
+    color: black;
+}
+
+#nav-text-dark-id {
+    color: black;
+}
+
+.footer-text-dark {
+    color: black;
+}
+
+/*
+ nav/footer styling override start
+*/
+/*
