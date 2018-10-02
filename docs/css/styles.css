@@ -40,7 +40,8 @@ main {
 */
 
 /*
- start about med-large content block 
+ start about med-large content block defaults for mobile,
+ media queries work for large
 */
 .flex-row {
     display: flex;
@@ -71,6 +72,16 @@ main {
 
 .flex-list-small {
     flex-basis: 25%;
+}
+
+.about-block-content-align {
+    margin: 20px 0;
+    padding: 5%;
+}
+
+.about-block-content-align-large {
+    padding: 5%;
+    margin-bottom: 20px;
 }
 
 /*
@@ -108,11 +119,13 @@ main {
     }
 
     .about-block-content-align {
-        margin: 10% 0;
+        margin: 5% 0;
+        padding: 0%;
     }
 
     .about-block-content-align-large {
         margin: 20% 14%;
+        padding: 5%;
     }
 }
 
@@ -137,10 +150,18 @@ main {
     padding: 5%;
 }
 
-.paragraph-style-white {
+.paragraph-style-black {
     color: black;
+    margin-top: 0;
 }
 
+.default-pad {
+    padding: 5%;
+}
+
+.new {
+    color: red;
+}
 
 /*
  About page content block styling
