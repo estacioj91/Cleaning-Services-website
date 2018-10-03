@@ -36,6 +36,30 @@ main {
 }
 
 /*
+ start carousel mobile adjustments
+*/
+#carausel-adjust {
+    height: 300px !important;
+}
+
+.carousel-adjust-item {
+    min-height: 0 !important;
+}
+
+/*
+ end carousel mobile adjustments
+*/
+/*
+ start carousel  adjustments
+*/
+.card-image-adjust {
+    height: 100% !important;
+}
+
+/*
+ end carousel  adjustments
+*/
+/*
  end home page
 */
 
