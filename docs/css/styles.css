@@ -56,6 +56,10 @@ main {
     height: 100% !important;
 }
 
+.card-link-align {
+    text-align: center !important;
+}
+
 /*
  end carousel  adjustments
 */
@@ -180,12 +184,10 @@ main {
 }
 
 .default-pad {
-    padding: 5%;
+    padding: 2%;
 }
 
-.new {
-    color: red;
-}
+
 
 /*
  About page content block styling
@@ -209,4 +211,51 @@ main {
 /*
  nav/footer styling override start
 */
+
 /*
+ footer styling override start
+*/
+.footer-style {
+    padding: 1% 30%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    padding: 0 15%;
+}
+
+.footer-img:hover {
+    opacity: .5;
+}
+
+
+.legal-container {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.legal-container-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.legal {
+    margin: 0;
+    font-weight: 420;
+}
+
+.legal-link-mobile {
+    width: 100%;
+    font-weight: 500;
+}
+
+/*
+footer styling override end
+*/
