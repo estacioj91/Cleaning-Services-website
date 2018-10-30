@@ -2,7 +2,11 @@ const path = require("path");
 module.exports = {
     entry: {
         index: ["babel-polyfill", "./src/index.js"],
-        about: ["babel-polyfill", "./src/about.js"]
+        about: ["babel-polyfill", "./src/about.js"],
+        contact: ["babel-polyfill", "./src/contact.js"],
+        request: ["babel-polyfill", "./src/request.js"],
+        testimonials: ["babel-polyfill", "./src/testimonials.js"],
+        services: ["babel-polyfill", "./src/services.js"]
     },
     output: {
         path: path.resolve(__dirname, "docs/scripts"),
