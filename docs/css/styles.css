@@ -11,7 +11,7 @@ main {
 /*
  start home page
 */
-.carousel .caroufsel-item>img {
+.carousel .carousel-item>img {
     height: 100%;
 }
 
@@ -270,3 +270,67 @@ footer styling override large screen start
 footer styling override large screen end
 */
 }
+
+/*
+Contact page start
+*/
+.contact-padding {
+    padding: 2% 2% 1% 2%;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.contact-flex-align {
+    flex-basis: 90%;
+}
+
+.contact-flex-align>.added-font-p {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.contact-flex>span {
+    order: -1;
+}
+
+@media screen and (min-width: 993px) {
+    .contact-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between
+    }
+
+    .contact-flex-align {
+        flex-basis: 44%;
+    }
+
+    .contact-flex>span {
+        order: 0;
+    }
+}
+
+
+/*
+Contact page end
+*/
+
+/*
+Text font
+*/
+.added-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.added-font-p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+Text font end
+*/
