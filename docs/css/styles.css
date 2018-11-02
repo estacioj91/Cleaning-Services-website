@@ -11,6 +11,18 @@ main {
 /*
  start home page
 */
+
+/*
+logo start
+*/
+.sbc-logo {
+    margin-top: 1%;
+    margin-left: 9%;
+}
+
+/*
+logo end
+*/
 .carousel .carousel-item>img {
     height: 100%;
 }
@@ -33,6 +45,31 @@ main {
 
 #about-header-image {
     width: 100%;
+}
+
+#contact-header-image {
+    filter: brightness(40%);
+    width: 100%;
+}
+
+#contact-header-image-mobile {
+    filter: brightness(40%);
+    width: 100%;
+}
+
+.contact-us-text-overlay-mobile {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-text-p-mobile {
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -259,6 +296,11 @@ footer styling override end
         padding: 5%;
     }
 
+    .sbc-logo {
+        margin-top: 1%;
+        margin-left: 0;
+    }
+
     /*
 footer styling override large screen start
 */
@@ -298,6 +340,22 @@ Contact page start
     order: -1;
 }
 
+.contact-us-text-overlay {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-text-p {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 @media screen and (min-width: 993px) {
     .contact-flex {
         display: flex;
@@ -312,6 +370,21 @@ Contact page start
 
     .contact-flex>span {
         order: 0;
+    }
+
+    .contact-us-text-overlay {
+        position: absolute;
+        top: 37%;
+        left: 36.5%;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .contact-text-p {
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
     }
 }
 
