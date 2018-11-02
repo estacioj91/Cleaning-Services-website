@@ -8,6 +8,14 @@ main {
     flex: 1 0 auto;
 }
 
+.bold-font {
+    font-weight: bold;
+}
+
+.white-font {
+    color: white;
+}
+
 /*
  start home page
 */
@@ -108,6 +116,12 @@ logo end
  start about med-large content block defaults for mobile,
  media queries work for large
 */
+
+.about-request-social-icon {
+    height: 29px;
+
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
