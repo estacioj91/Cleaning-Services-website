@@ -60,7 +60,7 @@
 
         <div class="row">
             <div class="container">
-                <div class="white row">
+                <div class="white row" style="padding: 5%">
                     <form action="submit" class="request-form col s12">
                         <div class="row">
                             <div class="input-field col s6">
@@ -103,8 +103,8 @@
                                 <label>Number of Bedrooms</label>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s6">
+                        <div class="row " style="margin-bottom: 0">
+                            <div class="input-field col s6 " style="margin-bottom: 0">
                                 <select>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -112,18 +112,60 @@
                                 </select>
                                 <label>Number of Bathrooms</label>
                             </div>
-                            <p>
-                                <label>
-                                    <input name="group1" type="radio" checked />
-                                    <span>Kitchen</span>
-                                </label>
-                            </p>
-                            <p>
-                                <label>
-                                    <input name="group1" type="radio" checked />
-                                    <span>No Kitchen</span>
-                                </label>
-                            </p>
+                            <div class="input-field col s6" style="margin-bottom: 0">
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="4">3+</option>
+                                </select>
+                                <label>Number of Living Rooms</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <p><label>Kitchen Service2</label></p>
+                                <p>
+                                    <label>
+                                        <input name="group1" type="radio" checked />
+                                        <span>Yes</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input name="group1" type="radio" checked />
+                                        <span>No</span>
+                                    </label>
+                                </p>
+                            </div>
+
+                            <div class="input-field col s6">
+                                <p><label>Pets?</label></p>
+                                <p>
+                                    <label>
+                                        <input name="group2" type="radio" checked />
+                                        <span>Yes</span>
+                                    </label>
+                                </p>
+                                <p>
+                                    <label>
+                                        <input name="group2" type="radio" checked />
+                                        <span>No</span>
+                                    </label>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Special Requests?</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container center">
+                                <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                                    <i class="material-icons right center">send</i>
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
