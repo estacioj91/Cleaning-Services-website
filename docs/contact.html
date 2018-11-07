@@ -26,6 +26,7 @@
                     <li><a class="nav-text-dark-a" href="./index.html">Home</a></li>
                     <li><a class="nav-text-dark-a" href="./about.html">About Us</a></li>
                     <li><a class="nav-text-dark-a" href="./contact.html">Contact Us</a></li>
+                    <li><a class="nav-text-dark-a" href="./request.html">Request Estimate</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,73 +43,64 @@
            nav bar ends 
         -->
     <main class="blue-grey lighten-3">
-        <div class="row">
-            <div class="container  hide-on-small-only">
-                <div class="row">
-                    <div class="content">
-                        <img src="./assets/contact-us-banner.jpg" height="400px" width="1180px" alt="about image" id="contact-header-image">
-                        <div class="contact-us-text-overlay">Contact Us <p class="contact-text-p"> We are ready for
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="banner-image-contact">
+                        <div class="banner-image-text added-font">
+                            <h4><span class="banner-bottom-line">Contact Us</span></h4>
+                            <p class="added-font-p hide-on-small-only">We are ready for
                                 your questions, don't hesitate to contact us.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container hide-on-med-and-up">
-                <div class="row">
-                    <div class="content">
-                        <img src="./assets/contact-us-banner.jpg" width="100%" height="100%" alt="about image" id="contact-header-image-mobile">
-                        <div class="contact-us-text-overlay-mobile">Contact Us <p class="contact-text-p-mobile"> We are
-                                ready
-                                for
-                                your questions, don't hesitate to contact us.</p>
+        </div>
+
+        <div class="container white contact-padding">
+            <div class="row contact-flex">
+                <form action="submit" class="contact-flex-align">
+                    <div class="input-field">
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input placeholder="555-555-5555" id="phone" type="tel" class="validate">
+                            <label for="phone">Phone Number</label>
+
+                        </div>
+
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                        <div class="container center">
+                            <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                                <i class="material-icons right center">send</i>
+                            </button>
                         </div>
                     </div>
-                </div>
+                </form>
+                <span class="contact-flex-align">
+                    <h5 class="added-font center">Get in touch with us</h5>
+                    <p class="added-font-p">Got any questions or concerns? We would love to hear from you. Send us
+                        a message and we'll respond to you as soon as we are available. If you wish to request a
+                        quote please click <a>
+                            here
+                        </a></p>
+                </span>
             </div>
-            <div class="container white contact-padding">
-                <div class="row contact-flex">
-                    <form action="submit" class="contact-flex-align">
-                        <div class="input-field">
-                            <div class="input-field col s6">
-                                <input id="first_name" type="text" class="validate">
-                                <label for="first_name">First Name</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Last Name</label>
-                            </div>
-
-                            <div class="input-field col s12">
-                                <input placeholder="555-555-5555" id="phone" type="tel" class="validate">
-                                <label for="phone">Phone Number</label>
-
-                            </div>
-
-                            <div class="input-field col s12">
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
-                            <div class="container center">
-                                <button class="btn waves-effect waves-light red" type="submit" name="action">Submit
-                                    <i class="material-icons right center">send</i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                    <span class="contact-flex-align">
-                        <h5 class="added-font center">Get in touch with us</h5>
-                        <p class="added-font-p">Got any questions or concerns? We would love to hear from you. Send us
-                            a message and we'll respond to you as soon as we are available. If you wish to request a
-                            quote please click <a>
-                                here
-                            </a></p>
-                    </span>
-                </div>
-            </div>
+        </div>
         </div>
     </main>
     <!--

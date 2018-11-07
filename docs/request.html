@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/styles.css">
     <link type="text/css" rel="stylesheet" href="./css/materialize.css" media="screen,projection" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>House Cleaning</title>
 </head>
@@ -26,6 +26,7 @@
                     <li><a class="nav-text-dark-a" href="./index.html">Home</a></li>
                     <li><a class="nav-text-dark-a" href="./about.html">About Us</a></li>
                     <li><a class="nav-text-dark-a" href="./contact.html">Contact Us</a></li>
+                    <li><a class="nav-text-dark-a" href="./request.html">Request Estimate</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,9 +42,93 @@
     <!--
            nav bar ends 
         -->
-    <main class="blue-grey lighten-1">
-
+    <main class="blue-grey lighten-3">
         <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="banner-image">
+                        <div class="banner-image-text added-font">
+                            <h4><span class="banner-bottom-line">Request Estimate</span></h4>
+                            <p class="added-font-p hide-on-small-only">Please fill out the
+                                following form so we can contact you as soon as possible with an estimate of
+                                our services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="white row">
+                    <form action="submit" class="request-form col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="Telephone" type="tel" class="validate">
+                                <label for="Telephone">Telephone</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <select>
+                                    <option value="1">Weekly</option>
+                                    <option value="2">Bi-Weekly</option>
+                                    <option value="4">Monthly</option>
+                                    <option value="5">Special Occasion</option>
+                                    <option value="6">Move-in/Move-out</option>
+                                </select>
+                                <label>Select Service</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="4">3</option>
+                                    <option value="5">4+</option>
+                                </select>
+                                <label>Number of Bedrooms</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <select>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="4">3+</option>
+                                </select>
+                                <label>Number of Bathrooms</label>
+                            </div>
+                            <p>
+                                <label>
+                                    <input name="group1" type="radio" checked />
+                                    <span>Kitchen</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input name="group1" type="radio" checked />
+                                    <span>No Kitchen</span>
+                                </label>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         </div>
     </main>
