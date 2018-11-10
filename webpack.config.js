@@ -5,7 +5,6 @@ module.exports = {
         about: ["babel-polyfill", "./src/about.js"],
         contact: ["babel-polyfill", "./src/contact.js"],
         request: ["babel-polyfill", "./src/request.js"],
-        testimonials: ["babel-polyfill", "./src/testimonials.js"],
         services: ["babel-polyfill", "./src/services.js"]
     },
     output: {

@@ -487,7 +487,7 @@ request page
 }
 
 .banner-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/request-stock-mobile-photo.jpeg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/vacuum.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 150px;
@@ -497,7 +497,7 @@ request page
 }
 
 .banner-image-contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/contact-us-banner.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/contact-us-banner.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 150px;
@@ -507,7 +507,17 @@ request page
 }
 
 .banner-image-about {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/about-img.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/about-img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image-services {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/services-banner.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 150px;
@@ -529,15 +539,19 @@ request page
 
 @media screen and (min-width: 993px) {
     .banner-image {
-        height: 260px;
+        height: 300px;
     }
 
     .banner-image-contact {
-        height: 260px;
+        height: 300px;
     }
 
     .banner-image-about {
-        height: 260px;
+        height: 300px;
+    }
+
+    .banner-image-services {
+        height: 300px;
     }
 }
 
